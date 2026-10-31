@@ -1,0 +1,2 @@
+observed_accuracy_difference_RF_minus_LR,bootstrap_95CI_lower,bootstrap_95CI_upper,mcnemar_b_baseline_wrong_rf_correct,mcnemar_c_baseline_correct_rf_wrong,mcnemar_one_sided_p_value,significance_level,decision
+0.1512915129151292,0.08856088560885611,0.2140221402214022,62,21,3.7526661623103604e-06,0.05,Reject H0: evidence supports higher accuracy for Random Forest.
