@@ -17,12 +17,9 @@ test-sample variation.</p>
 ​<ul>In VS Code, select the interpreter at .venv/bin/python if prompted.</ul></p>
 
 <p><ul>The target is created from compatibility_score:<br>0: score below 70 (Not Compatible)<br>1: score 70 or above (Compatible)
-<br>The threshold is an experimental definition and should be stated in the report.
-IDs, names, and free-text bios are excluded from the initial model features.
-Duplicate unordered student pairs are kept together using a grouped split.</ul></p>
-
-
-<p><b>Outputs</b>
+<br>The threshold is an experimental definition and should be stated in the report. IDs, names, and free-text bios are excluded from the initial model features.
+Duplicate unordered student pairs are kept together using a grouped split.</ul>
+<b>Outputs</b>
 The script creates these files inside outputs/:
 <ul>model_metrics.csv</ul>
 <ul>test_predictions.csv</ul>
