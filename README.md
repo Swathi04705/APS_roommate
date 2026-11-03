@@ -14,15 +14,15 @@ test-sample variation.</p>
 <ul>python -m pip install --upgrade pip</ul>
 <ul>pip install -r requirements.txt</ul>
 <ul>python assignment.py</ul>
-​<ul>In VS Code, select the interpreter at .venv/bin/python if prompted.</ul>ul></p>
+​<ul>In VS Code, select the interpreter at .venv/bin/python if prompted.</ul></p>
 
-<p>The target is created from compatibility_score:<br>0: score below 70 (Not Compatible)<br>1: score 70 or above (Compatible)
+<p><ul>The target is created from compatibility_score:<br>0: score below 70 (Not Compatible)<br>1: score 70 or above (Compatible)
 <br>The threshold is an experimental definition and should be stated in the report.
 IDs, names, and free-text bios are excluded from the initial model features.
-Duplicate unordered student pairs are kept together using a grouped split.</p>
+Duplicate unordered student pairs are kept together using a grouped split.</ul></p>
 
 
-<p><b>Outputs</b><br>
+<p><b>Outputs</b>
 The script creates these files inside outputs/:
 <ul>model_metrics.csv</ul>
 <ul>test_predictions.csv</ul>
