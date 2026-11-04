@@ -424,30 +424,6 @@ def main():
     }])
     summary.to_csv(OUTPUT_DIR / "statistical_test_results.csv", index=False)
 
-    print("\n" + "=" * 70)
-    print("7. WHERE PROBABILITY AND STATISTICS ARE USED")
-    print("=" * 70)
-    print("1. Stratified group splitting: creates training and held-out test samples.")
-    print("2. Bootstrap sampling: estimates variation in the paired accuracy difference.")
-    print("3. Confidence interval: quantifies uncertainty around the observed improvement.")
-    print("4. McNemar test: compares paired correctness outcomes on the same test cases.")
-    print("5. P-value and alpha: support the hypothesis-test decision.")
-
-    print("\n" + "=" * 70)
-    print("8. OUTPUT FILES")
-    print("=" * 70)
-    print(f"All results saved in: {OUTPUT_DIR}")
-    print(" - model_metrics.csv")
-    print(" - test_predictions.csv")
-    print(" - statistical_test_results.csv")
-    print(" - baseline_confusion_matrix.png")
-    print(" - improved_confusion_matrix.png")
-    print(" - bootstrap_difference_distribution.png")
-
-    print("\nIMPORTANT:")
-    print("Do not claim Random Forest is better unless the metrics and statistical")
-    print("tests support that conclusion. Report the actual output values.")
-
 
 if __name__ == "__main__":
     warnings.filterwarnings("ignore", category=FutureWarning)
